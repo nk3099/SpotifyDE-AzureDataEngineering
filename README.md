@@ -7,6 +7,10 @@ SQL DB
 ADF
 <img width="1470" height="815" alt="image" src="https://github.com/user-attachments/assets/2a658d38-f17b-4f2c-8320-3e9be215647e" />
 
+Inside For Each:
+<img width="1467" height="622" alt="image" src="https://github.com/user-attachments/assets/730c5bc1-1215-4df9-b936-b489754f3de8" />
+
+
 
 <img width="1470" height="465" alt="image" src="https://github.com/user-attachments/assets/845ba9d0-b125-431d-bf77-bf2b4995d827" />
 
