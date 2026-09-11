@@ -347,13 +347,13 @@
 					{
 						"schema": "dbo",
 						"table": "DimDate",
-						"cdc_column": "updated_at",
+						"cdc_column": "date",
 						"backfill_from_date": ""
 					},
 					{
 						"schema": "dbo",
 						"table": "FactStream",
-						"cdc_column": "updated_at",
+						"cdc_column": "stream_timestamp",
 						"backfill_from_date": ""
 					}
 				]
