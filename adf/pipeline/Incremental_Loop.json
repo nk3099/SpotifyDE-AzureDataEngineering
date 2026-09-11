@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "ForEach1",
+				"name": "ForEach Table",
 				"type": "ForEach",
 				"dependsOn": [],
 				"userProperties": [],
@@ -136,7 +136,7 @@
 							},
 							"userProperties": [],
 							"typeProperties": {
-								"variableName": "",
+								"variableName": "current_timestamp",
 								"value": {
 									"value": "@utcNow()",
 									"type": "Expression"
@@ -258,7 +258,10 @@
 												"type": "DatasetReference",
 												"parameters": {
 													"container": "bronze",
-													"folder": "cdc",
+													"folder": {
+														"value": "@concat(pipeline().parameters.table,'_cdc')",
+														"type": "Expression"
+													},
 													"file": "empty.json"
 												}
 											}
@@ -269,7 +272,10 @@
 												"type": "DatasetReference",
 												"parameters": {
 													"container": "bronze",
-													"folder": "cdc",
+													"folder": {
+														"value": "@concat(pipeline().parameters.table,'_cdc')",
+														"type": "Expression"
+													},
 													"file": "cdc.json"
 												}
 											}
@@ -320,6 +326,14 @@
 			},
 			"cdc_column": {
 				"type": "string"
+			},
+			"backfill_from_date": {
+				"type": "string"
+			}
+		},
+		"variables": {
+			"current_timestamp": {
+				"type": "String"
 			}
 		},
 		"annotations": []
