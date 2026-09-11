@@ -41,4 +41,8 @@ Using Git with ADF
 Merge Request
 <img width="1467" height="666" alt="image" src="https://github.com/user-attachments/assets/0d9d2df7-9dd1-4db1-b958-15f65d625752" />
 
+in ADF main (collaborate) branch
+<img width="1470" height="501" alt="image" src="https://github.com/user-attachments/assets/69166620-a160-4bf6-b242-9f89efdfa6e7" />
+
+
 
