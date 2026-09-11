@@ -1,39 +1,7 @@
 # SpotifyDE-AzureDataEngineering
 
-SQL DB
-<img width="1470" height="805" alt="image" src="https://github.com/user-attachments/assets/ad021b13-9059-48c1-9c19-f853ff39f904" />
-
-
-ADF
-<img width="1470" height="815" alt="image" src="https://github.com/user-attachments/assets/2a658d38-f17b-4f2c-8320-3e9be215647e" />
-
-Inside For Each:
-<img width="1467" height="622" alt="image" src="https://github.com/user-attachments/assets/730c5bc1-1215-4df9-b936-b489754f3de8" />
-
-
-
-<img width="1470" height="465" alt="image" src="https://github.com/user-attachments/assets/845ba9d0-b125-431d-bf77-bf2b4995d827" />
-
-
-TO
-
-<img width="1470" height="588" alt="image" src="https://github.com/user-attachments/assets/ef8ee615-6b74-4f19-9a5d-155616c221a0" />
-
-
-DimUser_cdc
-<img width="1466" height="411" alt="image" src="https://github.com/user-attachments/assets/532a98fd-e3b7-42e4-8bfa-1b4ef4bcaaeb" />
-
-Before ADF pipeline run:
-<img width="1141" height="395" alt="image" src="https://github.com/user-attachments/assets/87c22597-76e3-410e-a300-4e8b22b6a194" />
-
-After ADF pipeline run:
-<img width="1065" height="379" alt="image" src="https://github.com/user-attachments/assets/eaab71e7-5810-484a-abe3-4f9e04749676" />
-
-
-DimUser
-<img width="1470" height="736" alt="image" src="https://github.com/user-attachments/assets/f1abc444-316d-4dce-bba3-9c92bc04a23f" />
-<img width="1459" height="525" alt="image" src="https://github.com/user-attachments/assets/814bc2f2-4c8b-4610-a150-94b70afb1166" />
+<img width="1307" height="442" alt="image" src="https://github.com/user-attachments/assets/7ac83033-5126-4359-9837-e674439da68f" />
 
 SQL DB
-<img width="1470" height="782" alt="image" src="https://github.com/user-attachments/assets/5eaaa43c-7a05-416b-8056-adad9ffe1576" />
+<img width="1470" height="663" alt="image" src="https://github.com/user-attachments/assets/2f7f38b4-9573-48d3-aa31-b9e2e9212f30" />
 
