@@ -207,8 +207,6 @@
 									{
 										"name": "update last_cdc --watermarking",
 										"type": "Copy",
-										"state": "Inactive",
-										"onInactiveMarkAs": "Succeeded",
 										"dependsOn": [
 											{
 												"activity": "max_cdc_sqlscript",
