@@ -34,6 +34,11 @@ DimUser
 <img width="1470" height="736" alt="image" src="https://github.com/user-attachments/assets/f1abc444-316d-4dce-bba3-9c92bc04a23f" />
 <img width="1459" height="525" alt="image" src="https://github.com/user-attachments/assets/814bc2f2-4c8b-4610-a150-94b70afb1166" />
 
-SQL DB
-<img width="1470" height="782" alt="image" src="https://github.com/user-attachments/assets/5eaaa43c-7a05-416b-8056-adad9ffe1576" />
+
+Using Git with ADF
+<img width="342" height="314" alt="image" src="https://github.com/user-attachments/assets/a5be3984-603b-4238-9345-4caae23491cd" />
+
+Merge Request
+<img width="1467" height="666" alt="image" src="https://github.com/user-attachments/assets/0d9d2df7-9dd1-4db1-b958-15f65d625752" />
+
 
