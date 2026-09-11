@@ -116,7 +116,10 @@
 									"type": "DatasetReference",
 									"parameters": {
 										"container": "bronze",
-										"folder": "cdc",
+										"folder": {
+											"value": "@concat(pipeline().parameters.table,'_cdc')",
+											"type": "Expression"
+										},
 										"file": "cdc.json"
 									}
 								},
@@ -133,7 +136,7 @@
 							},
 							"userProperties": [],
 							"typeProperties": {
-								"variableName": "current_timestamp",
+								"variableName": "",
 								"value": {
 									"value": "@utcNow()",
 									"type": "Expression"
@@ -293,7 +296,7 @@
 												{
 													"type": "Query",
 													"text": {
-														"value": "SELECT\nMAX(@{pipeline().parameters.cdc_col})\nas cdc\nFROM\n@{pipeline().parameters.schema}.@{pipeline().parameters.table}\n",
+														"value": "SELECT\nMAX(@{pipeline().parameters.cdc_column})\nas cdc\nFROM\n@{pipeline().parameters.schema}.@{pipeline().parameters.table}\n",
 														"type": "Expression"
 													}
 												}
@@ -308,6 +311,17 @@
 				}
 			}
 		],
+		"parameters": {
+			"schema": {
+				"type": "string"
+			},
+			"table": {
+				"type": "string"
+			},
+			"cdc_column": {
+				"type": "string"
+			}
+		},
 		"annotations": []
 	}
 }
