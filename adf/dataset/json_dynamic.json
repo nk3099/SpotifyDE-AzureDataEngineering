@@ -1,5 +1,5 @@
 {
-	"name": "cdc_json_dynamic",
+	"name": "json_dynamic",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "ls_adls",
