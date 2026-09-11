@@ -8,10 +8,6 @@
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
-					"items": {
-						"value": "[\n    {\n        \"schema\":\"dbo\",\n        \"table\":\"DimUser\",\n        \"cdc_column\":\"updated_at\"\n    },\n    {\n        \"schema\":\"dbo\",\n        \"table\":\"DimArtist\",\n        \"cdc_column\":\"updated_at\"\n    },\n    {\n        \"schema\":\"dbo\",\n        \"table\":\"DimTrack\",\n        \"cdc_column\":\"updated_at\"\n    }\n]",
-						"type": "Expression"
-					},
 					"activities": [
 						{
 							"name": "AzureSQL_to_DataLake",
@@ -333,6 +329,41 @@
 			},
 			"backfill_from_date": {
 				"type": "string"
+			},
+			"loop_input": {
+				"type": "array",
+				"defaultValue": [
+					{
+						"schema": "dbo",
+						"table": "DimUser",
+						"cdc_column": "updated_at",
+						"backfill_from_date": ""
+					},
+					{
+						"schema": "dbo",
+						"table": "DimArtist",
+						"cdc_column": "updated_at",
+						"backfill_from_date": ""
+					},
+					{
+						"schema": "dbo",
+						"table": "DimTrack",
+						"cdc_column": "updated_at",
+						"backfill_from_date": ""
+					},
+					{
+						"schema": "dbo",
+						"table": "DimDate",
+						"cdc_column": "updated_at",
+						"backfill_from_date": ""
+					},
+					{
+						"schema": "dbo",
+						"table": "FactStream",
+						"cdc_column": "updated_at",
+						"backfill_from_date": ""
+					}
+				]
 			}
 		},
 		"variables": {
