@@ -286,7 +286,7 @@
 									{
 										"type": "Query",
 										"text": {
-											"value": "SELECT\nMAX(@{pipeline().parameters.cdc_col})\nas cdc\nFROM\n@{pipeline().parameters.schema}.@{pipeline().parameters.table}\n",
+											"value": "SELECT\nMAX(@{pipeline().parameters.cdc_column})\nas cdc\nFROM\n@{pipeline().parameters.schema}.@{pipeline().parameters.table}\n",
 											"type": "Expression"
 										}
 									}
