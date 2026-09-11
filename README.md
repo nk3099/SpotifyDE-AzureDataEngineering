@@ -1,5 +1,10 @@
 # SpotifyDE-AzureDataEngineering
 
+SQL DB
+<img width="1470" height="805" alt="image" src="https://github.com/user-attachments/assets/ad021b13-9059-48c1-9c19-f853ff39f904" />
+
+
+ADF
 <img width="1470" height="815" alt="image" src="https://github.com/user-attachments/assets/2a658d38-f17b-4f2c-8320-3e9be215647e" />
 
 
