@@ -8,6 +8,10 @@
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
+					"items": {
+						"value": "@pipeline().parameters.loop_input",
+						"type": "Expression"
+					},
 					"activities": [
 						{
 							"name": "AzureSQL_to_DataLake",
@@ -117,7 +121,7 @@
 									"parameters": {
 										"container": "bronze",
 										"folder": {
-											"value": "@concat(pipeline().parameters.table,'_cdc')",
+											"value": "@{item().table}",
 											"type": "Expression"
 										},
 										"file": "cdc.json"
@@ -318,18 +322,6 @@
 			}
 		],
 		"parameters": {
-			"schema": {
-				"type": "string"
-			},
-			"table": {
-				"type": "string"
-			},
-			"cdc_column": {
-				"type": "string"
-			},
-			"backfill_from_date": {
-				"type": "string"
-			},
 			"loop_input": {
 				"type": "array",
 				"defaultValue": [
