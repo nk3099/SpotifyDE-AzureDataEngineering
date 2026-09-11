@@ -68,7 +68,7 @@
 							"file": "cdc.json"
 						}
 					},
-					"firstRowOnly": true
+					"firstRowOnly": false
 				}
 			}
 		],
